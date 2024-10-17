@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./fresherbot/**/*.{html,js}"],
+  content: ['./fresherbot/output.css'],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
