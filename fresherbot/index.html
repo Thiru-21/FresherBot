@@ -7,7 +7,8 @@
     <title>FresherBot</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="output.css">
-    <meta http-equiv="refresh" content="5">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <link rel="stylesheet" href="index.css">
     <style>
         @media (max-width: 750px) {
             .hide {
@@ -34,14 +35,14 @@
     </style>
 </head>
 
-<body>
-    <div class="bg-cyan-300">
+<body class="w-screen">
+    <div class="w-screen text-black bg-cyan-100">
         <div class="">
             <div class="mx-[8%] sm:mx-24 p-2">
-                <div class="flex items-center w-full gap-2 lg:text-xl bg-cyan-300 ">
+                <div class="flex items-center w-full gap-2 lg:text-xl bg-cyan-100 ">
                     <div class="basis-4/5 w-fit">
                         <img src="https://voilacode.github.io/fresherbot-tailwind/assets/logo_fresherbot_dark.png"
-                            alt="no logo" class="h-10">
+                            alt="no logo" class="h-10 ">
                     </div>
                     <div class="flex gap-10 basis-2/5 text-end hide">
                         <div class="w-full font-bold"><a href="">About US</a></div>
@@ -59,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="w-screen p-1 mt-1 border-white">
+            <hr class="w-screen p-1 mt-1 border-black">
             <div class="mx-[8%] sm:mx-24 p-2">
                 <div class="flex float-right p-1 font-semibold gap-7 w-fit hide">
                     <div class="relative group"><a href="" class="hover:">FOR COLLEGES</a>
@@ -119,16 +120,17 @@
                 </div>
             </div>
         </div>
-        <div class="py-16">
+        <div class="pb-10">
             <div class="flex items-center justify-center mt-20 mx-[8%] sm:mx-24 p-2">
                 <div class="flex flex-col gap-4">
                     <div class="font-serif text-3xl sm:text-7xl">BUILDING YOUR FUTURE?</div>
                     <div class="text-gray-400 sm:text-xl">we have your back!</div>
-                    <div class="flex flex-col flex-wrap items-center gap-2 sm:flex-nowrap md:flex-row">
-                        <div class="p-5 bg-white rounded-2xl">Job Openings</div>
-                        <div class="p-5 bg-white rounded-2xl">Hackathon</div>
-                        <div class="p-5 bg-white rounded-2xl">Interview Prep</div>
-                        <div class="p-5 bg-white rounded-2xl">Internship</div>
+                    <div
+                        class="flex flex-col flex-wrap items-center justify-center gap-2 text-center sm:flex-nowrap md:flex-row">
+                        <div class="p-5 border bg-white rounded-2xl max-sm:200px sm:w-[25%] ">Job Openings</div>
+                        <div class="p-5  bg-white rounded-2xl sm:w-[25%] h-fit ">Hackathon </div>
+                        <div class="p-5 bg-white rounded-2xl  sm:w-[25%]  ">Interview Prep</div>
+                        <div class="p-5  bg-white rounded-2xl sm:w-[25%] ">Internship</div>
                     </div>
                 </div>
 
@@ -144,7 +146,7 @@
         </div>
         <div class="p=20 bg-sky-800">
             <div class="flex items-center justify-center w-full p-10">
-                <div class="font-serif text-3xl">
+                <div class="font-serif text-3xl text-white">
                     HOW DO WE DO IT?
                 </div>
             </div>
@@ -178,10 +180,10 @@
         </div>
 
         <!-- Our Model -->
-        <div class="flex flex-col gap-3 my-10 text-center mt-10 mx-[8%] sm:mx-[10%] ">
-            <div class="font-serif text-3xl">OUR MODELS</div>
+        <div class="flex flex-col gap-3 p-10  text-center mx-[8%] sm:mx-[10%] ">
+            <div class="font-serif text-3xl ">OUR MODELS</div>
             <div class="text-3xl text-green-700">Fresherbot is rethinking the traditional Engineering Model</div>
-            <div class="m-auto  font-light text-2xl  lg:w-[60%] md:w-[80%] sm:w-full">We believe this model is more
+            <div class="m-auto  font-light text-2xl  lg:w-[80%] md:w-[80%] sm:w-full">We believe this model is more
                 focused
                 on traditional methods of education rather than technology-based approaches and
                 does not adequately address the various opportunities students can explore in current ecosystem.
@@ -193,31 +195,31 @@
                 prepare for a rapidly evolving world.
             </div>
         </div>
-
-        <!-- Our Resouorces -->
-        <div class="flex flex-col gap-4 py-20 text-center">
-            <div class="font-serif text-3xl">OUR RESOURCES</div>
-            <div class="flex flex-col flex-wrap items-center gap-4 md:flex-row md:justify-center">
-                <img src="https://voilacode.github.io/fresherbot-tailwind/assets/resources.svg" alt="resources"
-                    class="w-[250px]  border-black p-6 rounded-3xl shadow-xl" />
-                <img src="https://voilacode.github.io/fresherbot-tailwind/assets/network.svg" alt="resources"
-                    class="w-[250px]  border-black p-6 rounded-3xl shadow-xl" />
-                <img src="https://voilacode.github.io/fresherbot-tailwind/assets/insight.svg" alt="resources"
-                    class="w-[250px]  border-black p-6 rounded-3xl shadow-xl" />
-                <img src="https://voilacode.github.io/fresherbot-tailwind/assets/enterpreneur.svg" alt="resources"
-                    class="w-[250px]  border-black p-6 rounded-3xl shadow-xl" />
-            </div>
+    </div>
+    <!-- Our Resouorces -->
+    <div class="flex flex-col w-screen gap-4 text-center bg-cyan-100">
+        <div class="font-serif text-3xl text-black ">OUR RESOURCES</div>
+        <div class="flex flex-col flex-wrap items-center gap-4 md:flex-row md:justify-center">
+            <img src="https://voilacode.github.io/fresherbot-tailwind/assets/resources.svg" alt="resources"
+                class="w-[200px]  border-white border p-6 rounded-3xl shadow-xl" />
+            <img src="https://voilacode.github.io/fresherbot-tailwind/assets/network.svg" alt="resources"
+                class="w-[200px]  border-white p-6 border rounded-3xl shadow-xl" />
+            <img src="https://voilacode.github.io/fresherbot-tailwind/assets/insight.svg" alt="resources"
+                class="w-[200px]  border-white p-6 border rounded-3xl shadow-xl" />
+            <img src="https://voilacode.github.io/fresherbot-tailwind/assets/enterpreneur.svg" alt="resources"
+                class="w-[200px]  border-white p-6 border rounded-3xl shadow-xl" />
         </div>
     </div>
+
     <!-- Partnered Colleges -->
-    <div class=" bg-purple-950">
+    <div class="w-screen bg-violet-700">
 
         <div class="py-10  mx-[8%] sm:mx-24 p-2">
 
             <div class="flex flex-col items-center justify-center gap-4 text-white sm:flex-row">
                 <div class="flex flex-col gap-4 w-[50%] text-center items-center">
-                    <div class="text-5xl font-bold text-red-500">Partnered Colleges</div>
-                    <div class="text-xl font-semibold text-cyan-400">Transformed their learning pedagogy by
+                    <div class="text-5xl font-bold text-white">Partnered Colleges</div>
+                    <div class="text-xl font-semibold ">Transformed their learning pedagogy by
                         collaborating
                         with us!</div>
                 </div>
@@ -249,8 +251,8 @@
         </div>
     </div>
 
-    <div class="w-screen py-10 mt-20 bg-white space-normal">
-        <div class="p-10 text-3xl text-center">ASSOICIATED WITH</div>
+    <div class="w-screen bg-white space-normal">
+        <div class="p-10 text-3xl text-center text-black">ASSOICIATED WITH</div>
         <div class="flex flex-wrap items-center justify-center gap-14 mx-[10%] sm:mx-[10%]">
             <div class="w-20 sm:w-30"><img
                     src="https://voilacode.github.io/fresherbot-tailwind/assets/companies/Inncircles%20Word%20Mark.png"
@@ -350,11 +352,72 @@
             </div>
         </div>
     </div>
+    <div class="w-screen bg-cyan-50">
+        <div class="py-10  mx-[8%] sm:mx-24 p-2 ">
+            <header>
+                <h1 class="text-black">HEAR IT FROM THEM</h1>
+            </header>
+        
+            <!-- Video Section -->
+            <section class="videos">
+                <!-- Video 1 with clickable link to play -->
+                <div class="video">
+                    <a href="#" class="play-video" data-video="https://voilacode.github.io/fresherbot-tailwind/assets/reviews/review1%20(2).mp4">
+                        <img src="images/image.png" alt="Video Thumbnail 1" class="thumbnail">
+                    </a>
+                    <div class="caption">Student Review</div>
+                </div>
+        
+                <!-- Video 2 with clickable link to play -->
+                <div class="video">
+                    <a href="#" class="play-video" data-video="https://voilacode.github.io/fresherbot-tailwind/assets/reviews/review1%20(2).mp4">
+                        <img src="images/image.png" alt="Video Thumbnail 1" class="thumbnail">
+                    </a>
+                    <div class="caption">Student Review</div>
+                </div>
+        
+                <!-- Video 3 with clickable link to play -->
+                <div class="video">
+                    <a href="#" class="play-video" data-video="https://voilacode.github.io/fresherbot-tailwind/assets/reviews/review1%20(2).mp4">
+                        <img src="images/image.png" alt="Video Thumbnail 1" class="thumbnail">
+                    </a>
+                    <div class="caption">Student Review</div>
+                </div>
+            </section>
+        
+    
+        </div>
+    
+        
+        <div class="py-10  mx-[8%] sm:mx-24 p-2">
+            <section class="new-scenarios">
+                <h2>SCENARIOS OVERVIEW</h2>
+        
+                <!-- Left arrow button -->
+                <button class="new-arrow-btn new-left-arrow" id="newLeftArrow">&larr;</button>
+        
+                <!-- Scenarios Container (cards to scroll) -->
+                <div class="flex new-scenarios-container justify-evenly" id="newScenariosContainer">
+                    <div class="new-scenario-card">Scenario 1</div>
+                    <div class="new-scenario-card">Scenario 2</div>
+                    <div class="new-scenario-card">Scenario 3</div>
+                    <!-- <div class="new-scenario-card">Scenario 4</div>
+                    <div class="new-scenario-card">Scenario 5</div> -->
+                </div>
+        
+                <!-- Right arrow button -->
+                <button class="new-arrow-btn new-right-arrow" id="newRightArrow">&rarr;</button>
+            </section>
+        </div>
+    
+    </div>
 
 
-    <div class="py-10  mx-[8%] sm:mx-24 p-2"></div>
-    <div class="flex flex-col items-center w-screen gap-10 py-10 bg-white">
-        <div class="text-5xl text-center">connect with us</div>
+
+
+    <div class="  mx-[8%] sm:mx-24 "></div>
+    <div class="flex flex-col items-center w-screen gap-10 bg-white">
+        <div class="p-2 text-5xl text-center text-black">connect with us</div>
         <div class="flex  justify-between md:gap-20 sm:flex-row mx-[8%] sm:mx-24 p-2">
             <a href="#" class="fa fa-linkedin sm:text-[100px] p-5 sm:p-8 rounded-lg shadow-2xl  text-blue-500"></a>
             <a href="#" class="fa fa-instagram sm:text-[100px] p-5 sm:p-8 rounded-lg shadow-2xl  text-purple-600"></a>
@@ -414,6 +477,8 @@
             </div>
         </div>
     </div>
+    <script src="fresherbot.js">
+    </script>
 </body>
 
 </html>
